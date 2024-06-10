@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "workshop1"
+version = "0.1.0"
+description = "first etl"
+authors = ["samuel_natividade <samuell.natividade@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.2.2"
+openpyxl = "^3.1.3"
+pytest = "^8.2.2"
+isort = "^5.13.2"
+blue = "^0.9.1"
+pydocstyle = "^6.3.0"
+pip-audit = "^2.7.3"
+taskipy = "^1.12.2"
+mkdocs = "^1.6.0"
+mkdocstrings-python = "^1.10.3"
+pygments = "^2.18.0"
+mkdocs-material = "^9.5.26"
+pymdown-extensions = "^10.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+format = "isort . && blue ."
+run = """
+python3 app/main.py
+"""
+kill = "kill -9 $(lsof -t -i :8000)"
