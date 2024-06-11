@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Esse repositorio faz parte do Workshop 1 da Jornada de Dados. Este projeto, tem como objetivo elucidar brevemente as ferramentas e necessidades necessárias para o desenvolvimento de um projeto de dados.
+Esse repositorio faz parte do Workshop 1 da Jornada de Dados. Este projeto, tem como objetivo elucidar brevemente as ferramentas e libs necessárias para o desenvolvimento de um projeto de dados.
 
 ## Projeto
 
