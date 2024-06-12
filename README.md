@@ -54,7 +54,7 @@ pytest -v
 task run
 ```
 
-8. Verifica a paste data/out
+8. Verifica a paste data/output
 
 
 ## Contato
